@@ -1,0 +1,9 @@
+﻿################################################################################
+# Este archivo .gitignore ha sido creado automáticamente por Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/RedAdborGestionEmpleados/FileContentIndex
+/Employe.Core/bin/Debug/net8.0
+/Employe.Core/obj/Debug/net8.0
+/Employee.Data/bin/Debug/net8.0
+/Employee.Data/obj/Debug/net8.0

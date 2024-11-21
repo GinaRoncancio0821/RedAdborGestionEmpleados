@@ -1,0 +1,243 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93D4995A-6D73-4607-877D-C7CEA1FB307B}|Employee.Api.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employeesmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D4995A-6D73-4607-877D-C7CEA1FB307B}|Employee.Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254B130B-6E6F-46FC-9018-6942C8EB9839}|..\\Employee.Data\\Employee.Data.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employee.data\\employeedbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254B130B-6E6F-46FC-9018-6942C8EB9839}|..\\Employee.Data\\Employee.Data.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employee.data\\repositories\\employeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{254B130B-6E6F-46FC-9018-6942C8EB9839}|..\\Employee.Data\\Employee.Data.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employee.data\\mapping\\employeemapping.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907789F3-7277-450E-9B8C-7E82A5F3ED63}|..\\Employe.Core\\Employee.Core.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employe.core\\bundleemployee\\utils\\jsondatetimeconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907789F3-7277-450E-9B8C-7E82A5F3ED63}|..\\Employe.Core\\Employee.Core.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employe.core\\bundleemployee\\services\\employeecommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907789F3-7277-450E-9B8C-7E82A5F3ED63}|..\\Employe.Core\\Employee.Core.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employe.core\\bundleemployee\\services\\employeequeriesservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907789F3-7277-450E-9B8C-7E82A5F3ED63}|..\\Employe.Core\\Employee.Core.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employe.core\\bundleemployee\\repositories\\iemployeerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907789F3-7277-450E-9B8C-7E82A5F3ED63}|..\\Employe.Core\\Employee.Core.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employe.core\\bundleemployee\\models\\employees.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907789F3-7277-450E-9B8C-7E82A5F3ED63}|..\\Employe.Core\\Employee.Core.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employe.core\\bundleemployee\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{907789F3-7277-450E-9B8C-7E82A5F3ED63}|..\\Employe.Core\\Employee.Core.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employe.core\\bundleemployee\\services\\repositories\\iemployeecommandservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D4995A-6D73-4607-877D-C7CEA1FB307B}|Employee.Api.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employeesmanagement\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D4995A-6D73-4607-877D-C7CEA1FB307B}|Employee.Api.csproj|solutionrelative:controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D4995A-6D73-4607-877D-C7CEA1FB307B}|Employee.Api.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employeesmanagement\\models\\dtoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93D4995A-6D73-4607-877D-C7CEA1FB307B}|Employee.Api.csproj|solutionrelative:models\\dtoemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93D4995A-6D73-4607-877D-C7CEA1FB307B}|Employee.Api.csproj|c:\\users\\gina\\source\\repos\\redadborgestionempleados\\employeesmanagement\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{93D4995A-6D73-4607-877D-C7CEA1FB307B}|Employee.Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EmployeeMapping.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employee.Data\\Mapping\\EmployeeMapping.cs",
+              "RelativeDocumentMoniker": "..\\Employee.Data\\Mapping\\EmployeeMapping.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employee.Data\\Mapping\\EmployeeMapping.cs",
+              "RelativeToolTip": "..\\Employee.Data\\Mapping\\EmployeeMapping.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T05:17:48.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employee.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Employee.Data\\Repositories\\EmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employee.Data\\Repositories\\EmployeeRepository.cs",
+              "RelativeToolTip": "..\\Employee.Data\\Repositories\\EmployeeRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAWwC0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:23:05.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employee.Data\\EmployeeDbContext.cs",
+              "RelativeDocumentMoniker": "..\\Employee.Data\\EmployeeDbContext.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employee.Data\\EmployeeDbContext.cs",
+              "RelativeToolTip": "..\\Employee.Data\\EmployeeDbContext.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T18:31:01.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T19:36:56.083Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "JsonDateTimeConverter.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Utils\\JsonDateTimeConverter.cs",
+              "RelativeDocumentMoniker": "..\\Employe.Core\\BundleEmployee\\Utils\\JsonDateTimeConverter.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Utils\\JsonDateTimeConverter.cs",
+              "RelativeToolTip": "..\\Employe.Core\\BundleEmployee\\Utils\\JsonDateTimeConverter.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwCAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T12:15:11.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EmployeeCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Services\\EmployeeCommandService.cs",
+              "RelativeDocumentMoniker": "..\\Employe.Core\\BundleEmployee\\Services\\EmployeeCommandService.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Services\\EmployeeCommandService.cs",
+              "RelativeToolTip": "..\\Employe.Core\\BundleEmployee\\Services\\EmployeeCommandService.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwBcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T05:27:34.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EmployeeQueriesServices.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Services\\EmployeeQueriesServices.cs",
+              "RelativeDocumentMoniker": "..\\Employe.Core\\BundleEmployee\\Services\\EmployeeQueriesServices.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Services\\EmployeeQueriesServices.cs",
+              "RelativeToolTip": "..\\Employe.Core\\BundleEmployee\\Services\\EmployeeQueriesServices.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwB8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-20T22:38:49.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IEmployeeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Repositories\\IEmployeeRepository.cs",
+              "RelativeDocumentMoniker": "..\\Employe.Core\\BundleEmployee\\Repositories\\IEmployeeRepository.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Repositories\\IEmployeeRepository.cs",
+              "RelativeToolTip": "..\\Employe.Core\\BundleEmployee\\Repositories\\IEmployeeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T22:58:06.484Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "..\\Employe.Core\\BundleEmployee\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "..\\Employe.Core\\BundleEmployee\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAADwvwsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T21:48:06.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\EmployeeController.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAmwKwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:14:21.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DtoEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\Models\\DtoEmployee.cs",
+              "RelativeDocumentMoniker": "Models\\DtoEmployee.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\Models\\DtoEmployee.cs",
+              "RelativeToolTip": "Models\\DtoEmployee.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAswB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:56:00.505Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Employees.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Models\\Employees.cs",
+              "RelativeDocumentMoniker": "..\\Employe.Core\\BundleEmployee\\Models\\Employees.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Models\\Employees.cs",
+              "RelativeToolTip": "..\\Employe.Core\\BundleEmployee\\Models\\Employees.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwCIAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T04:56:14.616Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IEmployeeCommandService.cs",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Services\\Repositories\\IEmployeeCommandService.cs",
+              "RelativeDocumentMoniker": "..\\Employe.Core\\BundleEmployee\\Services\\Repositories\\IEmployeeCommandService.cs",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\Employe.Core\\BundleEmployee\\Services\\Repositories\\IEmployeeCommandService.cs",
+              "RelativeToolTip": "..\\Employe.Core\\BundleEmployee\\Services\\Repositories\\IEmployeeCommandService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAjwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T06:44:10.597Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\Gina\\source\\repos\\RedAdborGestionEmpleados\\EmployeesManagement\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-21T04:40:19.719Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
