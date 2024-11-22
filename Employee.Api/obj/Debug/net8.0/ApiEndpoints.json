@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "Employee.Api.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EmployeesManagement.Controllers.EmployeeController",
     "Method": "Get",
     "RelativePath": "api/redarbor/Employee",
@@ -53,7 +63,7 @@
   },
   {
     "ContainingType": "EmployeesManagement.Controllers.EmployeeController",
-    "Method": "Get",
+    "Method": "GetById",
     "RelativePath": "api/redarbor/Employee/{id}",
     "HttpMethod": "GET",
     "IsController": true,

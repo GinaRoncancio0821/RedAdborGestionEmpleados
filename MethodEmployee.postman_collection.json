@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "058c319f-ee19-42da-b49b-2e2dcc04eab0",
+		"name": "MethodEmployee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8539040"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5266/api/Auth",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5266",
+					"path": [
+						"api",
+						"Auth"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetAll",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImp0aSI6ImU3YTA0N2YwLTUyMWYtNDk5My05ODBlLTU2OWQ4M2I1NGExMCIsImV4cCI6MTczMjI0NDkxNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MjY2IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MjY2In0.BBktmySc4fpUwlUlze7H8czLIpH_SyTvPZqWI7J-Ew0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:5266/api/redarbor/Employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5266",
+					"path": [
+						"api",
+						"redarbor",
+						"Employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GetById",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImp0aSI6ImU3YTA0N2YwLTUyMWYtNDk5My05ODBlLTU2OWQ4M2I1NGExMCIsImV4cCI6MTczMjI0NDkxNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MjY2IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MjY2In0.BBktmySc4fpUwlUlze7H8czLIpH_SyTvPZqWI7J-Ew0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "id",
+						"value": "1",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "id",
+							"value": "3",
+							"type": "text",
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:5266/api/redarbor/Employee/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5266",
+					"path": [
+						"api",
+						"redarbor",
+						"Employee",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Add",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImp0aSI6ImU3YTA0N2YwLTUyMWYtNDk5My05ODBlLTU2OWQ4M2I1NGExMCIsImV4cCI6MTczMjI0NDkxNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MjY2IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MjY2In0.BBktmySc4fpUwlUlze7H8czLIpH_SyTvPZqWI7J-Ew0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"CompanyId\": 1,\r\n \"CreatedOn\": \"2000-01-01 00:00:00\",\r\n\"DeletedOn\": \"2000-01-01 00:00:00\",\r\n \"Email\": \"test1@test.test.tmp\",\r\n \"Fax\": \"000.000.000\",\r\n \"Name\": \"tester1\",\r\n \"Lastlogin\": \"2000-01-01 00:00:00\",\r\n \"Password\": \"test\",\r\n \"PortalId\": 1,\r\n \"RoleId\": 1,\r\n \"StatusId\": 1,\r\n \"Telephone\": \"000.000.000\",\r\n \"UpdatedOn\": \"2000-01-01 00:00:00\",\r\n \"Username\": \"test1\"\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5266/api/redarbor/Employee",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5266",
+					"path": [
+						"api",
+						"redarbor",
+						"Employee"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiJhZG1pbiIsImp0aSI6ImU3YTA0N2YwLTUyMWYtNDk5My05ODBlLTU2OWQ4M2I1NGExMCIsImV4cCI6MTczMjI0NDkxNCwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo1MjY2IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo1MjY2In0.BBktmySc4fpUwlUlze7H8czLIpH_SyTvPZqWI7J-Ew0",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n \"CompanyId\": 1,\r\n \"CreatedOn\": \"2000-01-01 00:00:00\",\r\n\"DeletedOn\": \"2000-01-01 00:00:00\",\r\n \"Email\": \"test1@test.test.tmp\",\r\n \"Fax\": \"000.000.000\",\r\n \"Name\": \"Juan\",\r\n \"Lastlogin\": \"2000-01-01 00:00:00\",\r\n \"Password\": \"test\",\r\n \"PortalId\": 1,\r\n \"RoleId\": 1,\r\n \"StatusId\": 1,\r\n \"Telephone\": \"000.000.000\",\r\n \"UpdatedOn\": \"2000-01-01 00:00:00\",\r\n \"Username\": \"test1\"\r\n }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:5266/api/redarbor/Employee/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "5266",
+					"path": [
+						"api",
+						"redarbor",
+						"Employee",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}

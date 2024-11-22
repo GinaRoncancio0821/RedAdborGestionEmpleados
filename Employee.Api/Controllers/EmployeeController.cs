@@ -2,6 +2,7 @@
 using Employe.Core.BundleEmployee.Services;
 using Employe.Core.BundleEmployee.Services.Impl;
 using EmployeesManagement.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Routing.Matching;
 using Microsoft.EntityFrameworkCore;
@@ -9,7 +10,7 @@ using static Microsoft.EntityFrameworkCore.DbLoggerCategory.Database;
 
 namespace EmployeesManagement.Controllers
 {
-
+    [Authorize]
     [ApiController]
     [Route("/api/redarbor/[controller]")]
     public class EmployeeController : Controller
@@ -23,7 +24,8 @@ namespace EmployeesManagement.Controllers
             _employeeQueriesService = employeeQueriesService;
         }
 
-        [HttpGet]
+        
+        [HttpGet()]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<IEnumerable<Employees>>> Get()
@@ -43,11 +45,12 @@ namespace EmployeesManagement.Controllers
                 return BadRequest(ex);
             }
         }
-
+        
+        
         [HttpGet("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
-        public async Task<ActionResult<Employees>> Get(int id)
+        public async Task<ActionResult<Employees>> GetById(int id)
         {
             try
             {
@@ -114,7 +117,7 @@ namespace EmployeesManagement.Controllers
             }
         }
 
-
+        
         [HttpPut("{id}")]
         [ProducesResponseType(StatusCodes.Status200OK)]
         [ProducesResponseType(StatusCodes.Status500InternalServerError)]
