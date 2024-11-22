@@ -3,6 +3,7 @@ Sistema de gestión de empleados
 Esta aplicación API RESTful permite la gestión de empleados dentro de una empresa. el sistema se encuentra contruido en .NET Core, Entity Framework y Dapper y se basa en la aquitectura MVC. Con la integración de una base de datos SQL.  
 
 Estructura del Proyecto
+
 La arquitectura implementada en esta solución es una arquitectura en capas basada en los principios de SOLID, DDD, CQRS y Clean Code. Cuenta con Manejo de exepciones y errores.
 
 1. Employee.API
@@ -70,5 +71,5 @@ Dentro del repositorio se encuentra la colleción MethodEmployee.postman_collect
  "UpdatedOn": "2000-01-01 00:00:00",
  "Username": "test1"
  }
-		Descripción: Permite la creación de un empleado.
+Descripción: Permite la creación de un empleado.
 
